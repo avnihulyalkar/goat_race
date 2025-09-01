@@ -10,7 +10,7 @@ function GoatRace() {
   const FINISH_LINE = 10; // 10 steps to win
 
   const moveGoat1 = () => {
-    const newPosition = goat1Position + 3;
+    const newPosition = goat1Position + 1;
     setGoat1Position(newPosition);
     if (newPosition >= FINISH_LINE && !winner) {
       setWinner("🐐 Goat 1 Wins! 🎉");
